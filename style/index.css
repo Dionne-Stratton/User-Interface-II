@@ -68,6 +68,7 @@ nav a:hover {
 
 .section1 img {
   width: 49%;
+  height: auto;
 }
 
 .aboutbox {
@@ -200,4 +201,9 @@ footer {
   color: #FFCD69;
   animation-name: navhover;
   animation-duration: 2s;
+}
+
+.icons {
+  display:flex;
+  justify-content: center;
 }
