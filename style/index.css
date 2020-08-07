@@ -15,7 +15,7 @@ body{
 }
 
 header {
-  background-color: #b8f2e6;
+  background-image: linear-gradient(to bottom right, #b8f2e6, white);
   color: #073b4c;
 }
 
@@ -53,12 +53,16 @@ nav a:hover {
   background-color: #b8f2e6;
   color: #FFCD69;
   animation-name: navhover;
-  animation-duration: 2s;
+  animation-duration: 6s;
+  animation-iteration-count: 10;
 }
 
 @keyframes navhover {
-  from {background-color: #b8f2e6;}
-  to {background-color: #06d6a0;}
+  0%   {background-color: #b8f2e6;}
+  25%  {background-color: #b8f2e6;}
+  50%  {background-color: #06d6a0;}
+  75%  {background-color: #b8f2e6;}
+  100% {background-color: white;}
 }
 
 .section1 {
@@ -78,11 +82,12 @@ nav a:hover {
   margin-left: 5%
   margin-bottom: 5%;
   padding-left: 5%;
+  color:#023e8a;
   }
 
 
 .projectsbutton {
-  background-color: #06d6a0;
+  background-image: linear-gradient(to bottom right, #023e8a, #b8f2e6, #023e8a);
   color: white;
   padding: 1% 3%;
   margin: 3% auto;
@@ -91,10 +96,8 @@ nav a:hover {
 }
 
 .projectsbutton:hover {
-  background-color: white;
-  color: #FFCD69;
-  animation-name: navhover;
-  animation-duration: 2s;
+  background-image: linear-gradient(to bottom right, #023e8a, #b8f2e6, #023e8a);
+  color: #023e8a;
 }
 
 
@@ -179,7 +182,7 @@ footer {
 }
 
 .ender {
-  background-color: #ffa6c1;
+  background-image: linear-gradient(#ffa6c1, white, #ffa6c1);
   display:inline-block;
   width:100%;
   margin-bottom: 5%;
@@ -188,8 +191,8 @@ footer {
 }
 
 .contactbutton {
-  background-color: #118ab2;
-  color: #c1b3ff;
+  background-color: #a53860;
+  color: white;
   padding: 1% 3%;
   height: 2%;
   font-size:1.5rem;
@@ -197,10 +200,11 @@ footer {
 }
 
 .contactbutton:hover {
-  background-color: #ffa6c1;
+  background-color: white;
   color: #fca311;
   animation-name: navhover;
-  animation-duration: 2s;
+  animation-duration: 6s;
+  animation-iteration-count: 10;
 }
 
 .icons {
