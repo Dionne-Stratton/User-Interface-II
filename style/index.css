@@ -47,7 +47,7 @@ h2 {
   font-size: 2vw;
 }
 
-#hnavbuttons {
+nav {
   display: flex;
   margin-left: 5%;
   margin-bottom: 1%;
@@ -212,6 +212,20 @@ footer {
   .text-box {
     width: 80%;
     font-size: 3.5vw;
+  }
+  header{
+    height:45vh;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  nav a {
+    width: 30%;
+    text-align: center;
   }
   .pic img {
     width: 40vw;
