@@ -17,7 +17,7 @@ body{
 header{
   height:30vh;
   background-color:#E0FFFF;
-  background-image:url('https://png2.cleanpng.com/sh/27f838c2f14114a348f571797ea2b33f/L0KzQYi4UsA4N2JoSZGAYUK8SbPsgvI3OmpnSZC6MkG5Q4m5U8E2OWM7T6g8M0G6RIe5TwBvbz==/5a299bebb629b1.1216382315126763317462.png');
+  background-image: url('https://png2.cleanpng.com/sh/27f838c2f14114a348f571797ea2b33f/L0KzQYi4UsA4N2JoSZGAYUK8SbPsgvI3OmpnSZC6MkG5Q4m5U8E2OWM7T6g8M0G6RIe5TwBvbz==/5a299bebb629b1.1216382315126763317462.png');
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center top;
@@ -112,7 +112,6 @@ nav a:hover {
 .projectsbutton {
   background-image: linear-gradient(to bottom right, #023e8a, #b8f2e6, #023e8a);
   color: #023e8a;
-
   padding: 1% 3%;
   margin: 3% auto;
   font-size:1.6rem;

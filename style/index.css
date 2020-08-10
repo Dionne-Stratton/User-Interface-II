@@ -24,19 +24,12 @@ header{
   background-attachment:fixed;
 }
 
-@media (max-width: 500px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
 .container {
   display: flex;
 }
 
 .logo {
-  width: 120px;
-  height: 110px;
+  width: 10vw;
 }
 
 h1 {
@@ -47,11 +40,11 @@ h2 {
   font-family: 'Satisfy', cursive;
   margin-top: -4%;
   margin-left: -2%;
-
 }
 
 .text-box {
   width: 80%;
+  font-size: 2vw;
 }
 
 #hnavbuttons {
@@ -97,12 +90,14 @@ nav a:hover {
 
 .section1 {
   display: flex;
+  flex-shrink: 3;
   margin: 1%;
+  justify-content: center;
 }
 
 .section1 img {
   width: 49%;
-  height: auto;
+  object-fit: contain;
 }
 
 .aboutbox {
@@ -113,6 +108,7 @@ nav a:hover {
   margin-bottom: 5%;
   padding-left: 5%;
   color:#023e8a;
+  font-size: 2vw;
   }
 
 
@@ -139,9 +135,10 @@ nav a:hover {
   align-content: center;
   align-content: space-around;
   align-content: space-between;
+
 }
 
-.pic1 {
+.pic {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -149,60 +146,9 @@ nav a:hover {
   margin: 1% 0;
 }
 
-.pic2 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic3 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic4 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic5 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic6 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic7 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic8 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
+.pic img {
+  width: 20vw;
+  height: 20vw;
 }
 
 footer {
@@ -240,4 +186,49 @@ footer {
 .icons {
   display:flex;
   justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 20vw;
+  }
+  .text-box {
+    width: 80%;
+    font-size: 3vw;
+  }
+  .pic img {
+    width: 30vw;
+    height: 30vw;
+  }
+  .aboutbox {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    width: 30vw;
+  }
+  .text-box {
+    width: 80%;
+    font-size: 3.5vw;
+  }
+  .pic img {
+    width: 40vw;
+    height: 40vw;
+  }
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+  }
+  .section1 img {
+    width: 80%;
+  }
+  .aboutbox {
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+  }
 }
