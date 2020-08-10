@@ -14,14 +14,37 @@ body{
   font-family: 'Lemonada', cursive;
 }
 
-header {
-  background-image: linear-gradient(to bottom right, #b8f2e6, white);
-  color: #073b4c;
+header{
+  height:30vh;
+  background-color:#E0FFFF;
+  background-image:url('https://png2.cleanpng.com/sh/27f838c2f14114a348f571797ea2b33f/L0KzQYi4UsA4N2JoSZGAYUK8SbPsgvI3OmpnSZC6MkG5Q4m5U8E2OWM7T6g8M0G6RIe5TwBvbz==/5a299bebb629b1.1216382315126763317462.png');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center top;
+  background-attachment:fixed;
+}
+
+.container {
+  display: flex;
+}
+
+.logo {
+  width: 120px;
+  height: 110px;
 }
 
 h1 {
   font-family: 'Lobster', cursive;
-  margin-left: 2%
+}
+
+h2 {
+  font-family: 'Satisfy', cursive;
+  margin-top: -4%;
+  margin-left: -2%;
+}
+
+.text-box {
+  width: 80%;
 }
 
 #hnavbuttons {
@@ -88,7 +111,8 @@ nav a:hover {
 
 .projectsbutton {
   background-image: linear-gradient(to bottom right, #023e8a, #b8f2e6, #023e8a);
-  color: white;
+  color: #023e8a;
+
   padding: 1% 3%;
   margin: 3% auto;
   font-size:1.6rem;
@@ -97,11 +121,11 @@ nav a:hover {
 
 .projectsbutton:hover {
   background-image: linear-gradient(to bottom right, #023e8a, #b8f2e6, #023e8a);
-  color: #023e8a;
+  color: white;
 }
 
 
-.gallery {
+.artist {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -111,68 +135,17 @@ nav a:hover {
   align-content: space-between;
 }
 
-.pic1 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
+.artist img {
+  margin-bottom: 3%;
 }
 
-.pic2 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
+h3 {
+  margin-bottom: 3%;
 }
 
-.pic3 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic4 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic5 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic6 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic7 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
-}
-
-.pic8 {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size:1.4rem;
-  margin: 1% 0;
+#pic {
+  margin-top: 5%;
+  border-radius: 30%;
 }
 
 footer {
