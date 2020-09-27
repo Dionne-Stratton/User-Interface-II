@@ -27,7 +27,7 @@ body{
 header{
   height:30vh;
   background-color:#E0FFFF;
-  background-image:url('https://png2.cleanpng.com/sh/27f838c2f14114a348f571797ea2b33f/L0KzQYi4UsA4N2JoSZGAYUK8SbPsgvI3OmpnSZC6MkG5Q4m5U8E2OWM7T6g8M0G6RIe5TwBvbz==/5a299bebb629b1.1216382315126763317462.png');
+  background-image:url('../images/header_wave.png');
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center top;
@@ -210,6 +210,7 @@ footer {
     width: 30vw;
     height: 30vw;
   }
+
   .aboutbox {
     font-size: 2vw;
   }
