@@ -17,7 +17,7 @@ body{
 header{
   height:30vh;
   background-color:#E0FFFF;
-  background-image: url('https://scontent.fmkc1-1.fna.fbcdn.net/v/t1.0-9/118306816_10223692835726080_1439198595453707940_o.jpg?_nc_cat=108&_nc_sid=730e14&_nc_ohc=pkHvIlBIJ7YAX_RNAXt&_nc_ht=scontent.fmkc1-1.fna&oh=cd77050a4e13a4e2a7f8971ac05680c4&oe=5F90404A');
+  background-image: url('../images/header_wave.png');
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center top;
@@ -106,7 +106,7 @@ nav a:hover {
   margin-bottom: 5%;
   padding-left: 5%;
   color:#023e8a;
-  }
+}
 
 
 .projectsbutton {
