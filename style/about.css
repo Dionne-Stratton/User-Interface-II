@@ -136,6 +136,7 @@ nav a:hover {
 
 .artist img {
   margin-bottom: 3%;
+  max-width: 90%;
 }
 
 h3 {

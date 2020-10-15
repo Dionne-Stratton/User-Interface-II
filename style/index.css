@@ -32,6 +32,7 @@ header{
   background-size:cover;
   background-position:center top;
   background-attachment:fixed;
+  margin-bottom: 5%;
 }
 
 .container {
@@ -39,7 +40,8 @@ header{
 }
 
 .logo {
-  width: 10vw;
+  width: 120px;
+  height: 110px;
 }
 
 h1 {
@@ -60,7 +62,6 @@ h2 {
 nav {
   display: flex;
   margin-left: 5%;
-  margin-bottom: 1%;
   margin-right: 60%;
 }
 
@@ -145,7 +146,11 @@ nav a:hover {
   align-content: center;
   align-content: space-around;
   align-content: space-between;
+}
 
+#pic {
+  margin-top: 5%;
+  border-radius: 30%;
 }
 
 .pic {
@@ -214,7 +219,14 @@ footer {
   .aboutbox {
     font-size: 2vw;
   }
+
+  .artist {
+    font-size: 3vw;
+    padding: 5%;
 }
+}
+
+
 
 @media (max-width: 500px) {
   .logo {
@@ -255,5 +267,12 @@ footer {
     width: 80%;
     font-size: 4vw;
     text-align: center;
+  }
+
+  .artist {
+    width: 80%;
+    font-size: 4vw;
+    text-align: center;
+    margin-left: 5%;
   }
 }
