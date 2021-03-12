@@ -26,8 +26,7 @@ body {
 
 header {
   height: 30vh;
-  background-color: #e0ffff;
-  background-image: url("../images/header_wave.png");
+  background-image: linear-gradient(#08a6d6, white);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
