@@ -48,9 +48,9 @@ h1 {
 }
 
 h2 {
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
   margin-top: -4%;
-  margin-left: -2%;
+  margin-left: 2%;
 }
 
 .text-box {
