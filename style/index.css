@@ -43,9 +43,9 @@ header {
   height: 110px;
 }
 
-h1 {
+/* h1 {
   font-family: "Lobster", cursive;
-}
+} */
 
 h2 {
   /* font-family: "Satisfy", cursive; */
@@ -60,7 +60,7 @@ h2 {
 
 nav {
   display: flex;
-  margin-left: 1%;
+  margin-left: 2%;
   margin-right: 60%;
 }
 
