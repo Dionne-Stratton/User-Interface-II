@@ -26,7 +26,7 @@ body {
 
 header {
   height: 30vh;
-  background-image: linear-gradient(#08a6d6, white);
+  background-image: linear-gradient(#5ccff1, white);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -43,9 +43,6 @@ header {
   height: 110px;
 }
 
-/* h1 {
-  font-family: "Lobster", cursive;
-} */
 
 h2 {
   /* font-family: "Satisfy", cursive; */
@@ -123,10 +120,21 @@ nav a:hover {
 .aboutbox {
   width: 52%;
   display: inline-block;
-  margin-top: 10%;
-  margin-left: 5%;
+  margin-top: 1%;
+  margin-left: 1%;
   margin-bottom: 5%;
   padding-left: 5%;
+  color: #023e8a;
+  font-size: 2vw;
+}
+
+.otherbox {
+  /* width: 52%; */
+  display: inline-block;
+  /* margin-top: 1%;
+  margin-left: 1%;
+  margin-bottom: 5%; */
+  padding-left: 3%;
   color: #023e8a;
   font-size: 2vw;
 }
@@ -182,7 +190,7 @@ footer {
   background-image: linear-gradient(#ffa6c1, white, #ffa6c1);
   display: inline-block;
   width: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   text-align: center;
   color: #a53860;
 }
