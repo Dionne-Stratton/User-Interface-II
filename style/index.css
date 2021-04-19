@@ -26,8 +26,7 @@ body {
 
 header {
   height: 30vh;
-  background-color: #e0ffff;
-  background-image: url("../images/header_wave.png");
+  background-image: linear-gradient(#08a6d6, white);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -44,14 +43,14 @@ header {
   height: 110px;
 }
 
-h1 {
+/* h1 {
   font-family: "Lobster", cursive;
-}
+} */
 
 h2 {
-  font-family: "Satisfy", cursive;
+  /* font-family: "Satisfy", cursive; */
   margin-top: -4%;
-  margin-left: -2%;
+  margin-left: 2%;
 }
 
 .text-box {
@@ -61,7 +60,7 @@ h2 {
 
 nav {
   display: flex;
-  margin-left: 5%;
+  margin-left: 2%;
   margin-right: 60%;
 }
 
